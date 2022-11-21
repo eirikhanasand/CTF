@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Universal Studios</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>This file has been corrupted. Can you find the lost message inside?</p>
+    </description>
+    <notes>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <ul>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+            <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+        </ul>
+    </notes>
+    <history>
+        <event type="created" date="2022-09-18" />
+    </history>
+    <category>Steganography</category>
+    <difficulty>Medium</difficulty>
+    <references>
+        <cve id="CVE-1234-56789" />
+        <website
+            title="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+            href="https://example.com/some/relevant-resources/like/background-information/about-the/vulnerability.html" />
+    </references>
+    <hints>
+        <hint cost="5">What could make a file corrupted?</hint>
+        <hint cost="15">A hex editor is a good place to start</hint>
+    </hints>
+    <flag>
+        <format>S2G{...}</format>
+        <solution>S2G{look-at-the-hex-expert}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+    <attachments>
+        <file type="image/jpg" href="./universalstudios.jpg" />
+    </attachments>
+</challenge>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Bambi</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>cbncj-jt-dvuf</p>
+    </description>
+    <history>
+        <event type="created" date="2022-09-26" />
+    </history>
+    <category>Cryptography</category>
+    <difficulty>Easy</difficulty>
+    <hints>
+        <hint cost="5">Shift the letters.</hint>
+    </hints>
+    <flag>
+        <format>S2G{...}</format>
+        <solution>S2G{bambi-is-cute}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+</challenge>
