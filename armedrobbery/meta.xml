@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Armed Robbery</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>
+        There was a robbery at a grocery store. 5 criminals broke into the store in the middle of the night and were able to get away with 100 000 Norwegian Kroner. Police quickly arrived at the scene and the criminals left in a rush. A phone was later found by investigators. We were able to find 25 images, and particularly one of a wharf. We believe the money may be hidden at this wharf. Where is this wharf located?
+        Write the flag as the name of the lake, followed by the county the lake is located in.
+        Example: julectf2022{Lake-County}
+        </p>
+    </description>
+    <history>
+        <event type="created" date="2022-11-07" />
+    </history>
+    <category>Osint</category>
+    <difficulty>Hard</difficulty>
+    <hints>
+        <hint cost="10">Do you see any licence plates?</hint>
+    </hints>
+    <flag>
+        <format>julectf2022{...}</format>
+        <solution>julectf2022{Mosjøen-Viken}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+    <attachments>
+        <folder type="application/zip" href="armedimages.zip" />
+    </attachments>
+</challenge>

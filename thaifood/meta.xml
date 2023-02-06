@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Thai food</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>
+        We have intel that the thai shed just outside of the image on the right side is involved with drug trafficing. Can you tell us what company this is so we can take appropiate action?
+        The flag is case sensitive, make sure you write it exactly as it appears.
+        </p>
+    </description>
+    <history>
+        <event type="created" date="2022-11-07" />
+    </history>
+    <category>Osint</category>
+    <difficulty>Easy</difficulty>
+    <hints>
+        <hint cost="5">What text do you see in the image?</hint>
+        <hint cost="10">Maybe google maps can help?</hint>
+    </hints>
+    <flag>
+        <format>julectf2022{...}</format>
+        <solution>julectf2022{La Vanna}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+    <attachments>
+        <file type="image/png" href="./thaifood.png" />
+    </attachments>
+</challenge>

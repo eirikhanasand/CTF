@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Icecream</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>
+        We believe that this store is involved with drug trafficking. We have intel that the ice cream provider hides the drugs in the ice cream. Can you tell us who the company is, and what house number the store has?
+        Write the flag as: julectf2022{COMPANY-HOUSENUMBER}
+        </p>
+    </description>
+    <history>
+        <event type="created" date="2022-11-07" />
+    </history>
+    <category>Osint</category>
+    <difficulty>Hard</difficulty>
+    <hints>
+        <hint cost="5">What text do you see in the image?</hint>
+    </hints>
+    <flag>
+        <format>julectf2022{...}</format>
+        <solution>julectf2022{ALGIDA-50}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+    <attachments>
+        <file type="image/png" href="./icecream.png" />
+    </attachments>
+</challenge>
