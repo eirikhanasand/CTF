@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Pluto</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>⋏⊬⎐⍀⏃⎎-⋏⟒⍀-⌿⏚⏚⊬</p>
+    </description>
+    <history>
+        <event type="created" date="2022-09-26" />
+    </history>
+    <category>Cryptography</category>
+    <difficulty>Medium</difficulty>
+    <hints>
+        <hint cost="5">Alien Decoder</hint>
+        <hint cost="10">Rot13 Decoder</hint>
+    </hints>
+    <flag>
+        <format>julectf2022{...}</format>
+        <solution>julectf2022{aliens-are-cool}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+</challenge>
