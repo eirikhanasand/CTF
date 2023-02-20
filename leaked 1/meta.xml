@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Leaked 1</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>
+        I was able to extract this API file from my phone. I heard there could be some secret information on here that is not yet public. Can you help me find it?
+        </p>
+    </description>
+    <history>
+        <event type="created" date="2023-02-05" />
+    </history>
+    <category>Mobile</category>
+    <difficulty>Medium</difficulty>
+    <hints>
+        <hint cost="10">You are looking for an asset.</hint>
+    </hints>
+    <flag>
+        <format>S2G{...}</format>
+        <solution>S2G{5d6fa5762972e69ecc46c6a40dad5057}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+    <attachments>
+        <file type="application/octet-stream" href="./leaked_1.ipa" />
+    </attachments>
+</challenge>
