@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Tower</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>Where is this tower located?
+        The solution will be the name of the place this tower is located in.
+        </p>
+    </description>
+    <history>
+        <event type="created" date="2023-02-20" />
+    </history>
+    <category>Osint</category>
+    <difficulty>Easy</difficulty>
+    <hints>
+        <hint cost="5">Try a reverse image search</hint>
+    </hints>
+    <flag>
+        <format>S2G{...}</format>
+        <solution>S2G{Grorud Leir}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+    <attachments>
+        <file type="image/png" href="./mast.png" />
+    </attachments>
+</challenge>

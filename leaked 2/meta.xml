@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Leaked 2</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>
+        I was able to extract this API file from my phone. I heard there could be some secret key I can use to spam the users of the application with notifications. Can you find it?
+        </p>
+    </description>
+    <history>
+        <event type="created" date="2023-02-28" />
+    </history>
+    <category>Mobile</category>
+    <difficulty>Medium</difficulty>
+    <flag>
+        <format>S2G{...}</format>
+        <solution>S2G{can_you_spam_me_now}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+    <attachments>
+        <file type="application/octet-stream" href="./leaked_2.ipa" />
+    </attachments>
+</challenge>
