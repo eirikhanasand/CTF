@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Car 2</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>
+        We found the location, but we couldn't find anything of interest. Therefore, we would like to ask the person who took the image. Can you tell us his ufz email?
+        NOTE: Car 1 must be solved first. 
+        </p>
+    </description>
+    <history>
+        <event type="created" date="2022-11-07" />
+    </history>
+    <category>Osint</category>
+    <difficulty>Medium</difficulty>
+    <hints>
+        <hint cost="5">Google it</hint>
+    </hints>
+    <flag>
+        <format>S2G{...}</format>
+        <solution>S2G{stephan.getzin@ufz.de}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+</challenge>
