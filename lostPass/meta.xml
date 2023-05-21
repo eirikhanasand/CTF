@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Lost Pass</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>
+            I cant remember anything from last night! Someone broke in and knocked me out! For some reason 
+            I cant unlock my vault anymore so I think they changed my password :( All I have is this 
+            note...
+        </p>
+    </description>
+    <history>
+        <event type="created" date="2023-03-26" />
+    </history>
+    <category>Crypto</category>
+    <difficulty>Easy</difficulty>
+    <hints>
+        <hint cost="5">Maybe they encrypted the key too!</hint>
+        <hint cost="10">Dictator</hint>
+    </hints>
+    <flag>
+        <format>S2G{...}</format>
+        <solution>S2G{4#NzT9Xs*a@KcQvG}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+    <attachments>
+        <file type="image/jpg" href="./lostPass.jpg" />
+    </attachments>
+</challenge>
+
