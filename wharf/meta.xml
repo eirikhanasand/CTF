@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl"?>
+<challenge>
+    <title>Wharf 1</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no"/>
+    </authors>
+    <description>
+        <p>What is the name of this wharf?</p>
+    </description>
+    <history>
+        <event type="created" date="2022-11-07"/>
+    </history>
+    <category>Osint</category>
+    <difficulty>Easy</difficulty>
+    <flag>
+        <format>S2G{...}</format>
+        <solution>S2G{Fiskebrygga}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md"/>
+    </writeups>
+    <attachments>
+        <file type="image/jpeg" href="./wharf.jpeg"/>
+    </attachments>
+</challenge>

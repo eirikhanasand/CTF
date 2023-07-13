@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/IIK-S2G/ctf-challenges/main/xslt/render.xsl" ?>
+<challenge>
+    <title>Holiday 2</title>
+    <authors>
+        <author name="Eirik Hanasand" affiliation="NTNU" email="eirimhan@stud.ntnu.no" />
+    </authors>
+    <description>
+        <p>
+            This is a beautiful picture, but who is to be credited for it?
+            Enter the flag as S2G{firstname_surname}
+        </p>
+    </description>
+    <history>
+        <event type="created" date="2022-11-07" />
+    </history>
+    <category>Osint</category>
+    <difficulty>Medium</difficulty>
+    <hints>
+        <hint cost="10">Check the websites that uses the image</hint>
+    </hints>
+    <flag>
+        <format>S2G{...}</format>
+        <solution>S2G{Ihor_Tailwind}</solution>
+    </flag>
+    <writeups>
+        <file type="text/markdown" href="./WRITEUP.md" title="WRITEUP.md" />
+    </writeups>
+    <attachments>
+        <file type="image/jpg" href="./Holiday.jpg" />
+    </attachments>
+</challenge>
